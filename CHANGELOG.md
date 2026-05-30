@@ -6,6 +6,23 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/), and 
 
 ---
 
+## [0.5.1] - 2026-05-31
+
+Quick fix release.
+
+## Fixed
+
+- Old PS values no longer remain visible after changing frequency
+- PI value `0000` is now ignored and shown as empty
+- PI and PS are reset when tuning to a new frequency
+- RDS data now expires automatically if no fresh PI/PS data is received
+
+## Notes
+
+This release improves reliability while tuning quickly across the FM band.
+
+Recommended update for all v0.5.0 users.
+
 ## [0.5.0] - 2026-05-30
 
 ### Initial Public Beta
