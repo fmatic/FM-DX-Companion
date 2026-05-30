@@ -1,117 +1,125 @@
-FM-DX Companion
+# FM-DX Companion
+
+![Version](https://img.shields.io/badge/version-v0.5.0-blue)
+![Status](https://img.shields.io/badge/status-beta-orange)
+![Platform](https://img.shields.io/badge/platform-browser-green)
 
 A lightweight browser-based companion for SDRconnect and FM-DX enthusiasts.
 
 FM-DX Companion combines FMScan userlists, SDRconnect WebSocket data, FMList logging and FMDX Maps into a streamlined DX workflow.
 
-⸻
+---
 
-Features
+## Features
 
-* Real-time SDRconnect integration via WebSocket
-* PI and PS based station matching
-* Supports FMScan Tropo, Sporadic-E and Meteor Scatter userlists
-* FMList logging integration
-* FMDX Maps integration
-* Automatic remarks generation
-* Browser-based, no installation required
-* Local storage using IndexedDB
-* Fast station lookup and ranking
+- Real-time SDRconnect integration via WebSocket
+- PI and PS based station matching
+- Supports FMScan Tropo, Sporadic-E and Meteor Scatter userlists
+- FMList logging integration
+- FMDX Maps integration
+- Automatic remarks generation
+- Browser-based, no installation required
+- IndexedDB local storage
+- Fast station lookup and ranking
 
-⸻
+---
 
-Requirements
+## Getting Started
 
-1. SDRconnect
-
-Enable the WebSocket Server in SDRconnect.
+### 1. Enable SDRconnect WebSocket Server
 
 Default connection:
 
+```text
 ws://127.0.0.1:5454
+```
 
-2. FMScan Userlists
+### 2. Download FMScan Userlists
 
 Download all three FMScan userlists:
 
-* Tropo
-* Sporadic-E
-* Meteor Scatter
+- Tropo
+- Sporadic-E
+- Meteor Scatter
 
-When exporting, use:
+Export settings:
 
-* CSV format
-* TAB separator
+- CSV format
+- TAB separator
 
-Example:
+![FMScan Export Settings](docs/fmscan-export.gif)
 
-3. Rename Files
+### 3. Rename Files
 
-Rename the downloaded files to:
+Rename the downloaded files:
 
+```text
 tropo.csv
 es.csv
 meteor.csv
+```
 
-4. Load Lists
+### 4. Import Lists
 
-Open FM-DX Companion and import:
+Load the files into FM-DX Companion:
 
-* Tropo → tropo.csv
-* Es → es.csv
-* Meteor → meteor.csv
+| List | File |
+|--------|--------|
+| Tropo | tropo.csv |
+| Es | es.csv |
+| Meteor | meteor.csv |
 
-The lists are stored locally in your browser and automatically restored the next time you open Companion.
+The lists are stored locally in your browser and automatically restored when Companion is reopened.
 
-⸻
+---
 
-Typical Workflow
+## Typical Workflow
 
 1. Tune a station in SDRconnect
-2. Companion receives frequency, PI and PS information
+2. Companion receives Frequency, PI and PS data
 3. Matching stations are ranked automatically
 4. Right-click a station entry
 5. Open FMList logging or FMDX Maps
 6. Remarks are automatically copied to clipboard
 7. Log the station
 
-⸻
+---
 
-Current Status
+## Current Status
 
-v0.5.0 — Initial Public Beta
+### v0.5.0 — Initial Public Beta
 
 FM-DX Companion is already fully usable for everyday FM-DX work.
 
-Planned future improvements include:
+### Planned Features
 
-* Toast notifications
-* Station search
-* Site Explorer
-* PI history
-* DX notes
-* Companion themes for FMList
-* Companion themes for FMDX Maps
+- Toast notifications
+- Station search
+- Site Explorer
+- PI history
+- DX notes
+- FMList Companion Theme
+- FMDX Maps Companion Theme
 
-⸻
+---
 
-Philosophy
+## Philosophy
 
 FM-DX Companion is intentionally lightweight.
 
-It is not intended to replace SDRconnect, FMList or FMDX Maps.
+It is **not intended to replace SDRconnect, FMList or FMDX Maps**.
 
 Instead, it acts as a bridge between them, providing a faster and more efficient FM-DX workflow while keeping the interface simple and distraction-free.
 
-⸻
+---
 
-Author
+## Author
 
-Developed in Finland 🇫🇮 by Janne Heinikangas
+**Janne Heinikangas** 🇫🇮
 
-* Blog: https://fmatic.online
-* GitHub: https://github.com/fmatic
+- Blog: https://fmatic.online
+- GitHub: https://github.com/fmatic
 
-⸻
+---
 
-“Minimal DX workflow for SDRconnect users.”
+*Minimal DX workflow for SDRconnect users.*
