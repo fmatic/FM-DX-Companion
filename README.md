@@ -107,8 +107,8 @@ Quick fix release.
 
 - Old PS values no longer remain visible after changing frequency
 - PI value `0000` is now ignored and shown as empty
-- PI and PS are reset when tuning to a new frequency
-- RDS data now expires automatically if no fresh PI/PS data is received
+- Fixed stale RDS data handling when changing frequency. PI value 0000 is ignored.
+
 
 ## Notes
 
