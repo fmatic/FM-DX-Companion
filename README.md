@@ -34,10 +34,6 @@ Default connection:
 ws://127.0.0.1:5454
 ```
 
-
-
-![FM-DX Companion](docs/helper.gif)
-
 ### 2. Download FMScan Userlists
 
 Download all three FMScan userlists:
@@ -51,7 +47,7 @@ Export settings:
 - CSV format
 - TAB separator
 
-![FMScan Export Settings](docs/fmscan-export.gif)
+![FMScan Export Settings](docs/IMG_5188.gif)
 
 ### 3. Rename Files
 
