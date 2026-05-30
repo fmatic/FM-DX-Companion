@@ -1,8 +1,10 @@
-### FM-DX Companion
+FM-DX Companion
 
 A lightweight browser-based companion for SDRconnect and FM-DX enthusiasts.
 
-FM-DX Companion combines FMScan userlists, SDRconnect WebSocket data and FMList logging into a single, simple workflow.
+FM-DX Companion combines FMScan userlists, SDRconnect WebSocket data, FMList logging and FMDX Maps into a streamlined DX workflow.
+
+⸻
 
 Features
 
@@ -10,21 +12,24 @@ Features
 * PI and PS based station matching
 * Supports FMScan Tropo, Sporadic-E and Meteor Scatter userlists
 * FMList logging integration
-* FMDX Map integration
+* FMDX Maps integration
 * Automatic remarks generation
 * Browser-based, no installation required
-* Stores userlists locally using IndexedDB
+* Local storage using IndexedDB
+* Fast station lookup and ranking
 
-## Requirements
+⸻
+
+Requirements
 
 1. SDRconnect
 
-Enable the SDRconnect WebSocket Server.
+Enable the WebSocket Server in SDRconnect.
 
 Default connection:
-```
+
 ws://127.0.0.1:5454
-```
+
 2. FMScan Userlists
 
 Download all three FMScan userlists:
@@ -33,14 +38,16 @@ Download all three FMScan userlists:
 * Sporadic-E
 * Meteor Scatter
 
-Use the following settings when exporting:
+When exporting, use:
 
 * CSV format
 * TAB separator
 
+Example:
+
 3. Rename Files
 
-Rename the downloaded files as:
+Rename the downloaded files to:
 
 tropo.csv
 es.csv
@@ -54,35 +61,47 @@ Open FM-DX Companion and import:
 * Es → es.csv
 * Meteor → meteor.csv
 
-The lists are stored locally in your browser and will automatically reload the next time you open Companion.
+The lists are stored locally in your browser and automatically restored the next time you open Companion.
 
 ⸻
 
-Workflow
+Typical Workflow
 
 1. Tune a station in SDRconnect
 2. Companion receives frequency, PI and PS information
 3. Matching stations are ranked automatically
-4. Right-click a station
-5. Open FMList logging page or FMDX Map
+4. Right-click a station entry
+5. Open FMList logging or FMDX Maps
 6. Remarks are automatically copied to clipboard
+7. Log the station
 
 ⸻
 
 Current Status
 
-v0.5.0 (Initial Public Beta)
+v0.5.0 — Initial Public Beta
 
-The software is fully usable for daily FM-DX work, but additional features and UI refinements are planned.
+FM-DX Companion is already fully usable for everyday FM-DX work.
 
-Planned features include:
+Planned future improvements include:
 
 * Toast notifications
 * Station search
 * Site Explorer
 * PI history
 * DX notes
-* Companion themes for FMList and FMDX Map
+* Companion themes for FMList
+* Companion themes for FMDX Maps
+
+⸻
+
+Philosophy
+
+FM-DX Companion is intentionally lightweight.
+
+It is not intended to replace SDRconnect, FMList or FMDX Maps.
+
+Instead, it acts as a bridge between them, providing a faster and more efficient FM-DX workflow while keeping the interface simple and distraction-free.
 
 ⸻
 
@@ -95,10 +114,4 @@ Developed in Finland 🇫🇮 by Janne Heinikangas
 
 ⸻
 
-Philosophy
-
-FM-DX Companion is intentionally lightweight.
-
-It is not intended to replace SDRconnect, FMList or FMDX Maps.
-
-Instead, it acts as a simple bridge between them, providing a faster and more efficient FM-DX workflow. 📻
+“Minimal DX workflow for SDRconnect users.”
