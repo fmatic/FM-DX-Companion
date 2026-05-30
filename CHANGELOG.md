@@ -12,14 +12,10 @@ Quick fix release.
 
 ## Fixed
 
-- Old PS values no longer remain visible after changing frequency
-- PI value `0000` is now ignored and shown as empty
-- PI and PS are reset when tuning to a new frequency
-- RDS data now expires automatically if no fresh PI/PS data is received
-
-## Notes
-
-This release improves reliability while tuning quickly across the FM band.
+- Improved stale RDS handling when changing frequency
+- PI and PS are now cleared when tuning to a new frequency
+- PI value `0000` is ignored and shown as empty
+- Removed time-based RDS expiry to avoid clearing valid stable PI/PS data while listening
 
 Recommended update for all v0.5.0 users.
 
