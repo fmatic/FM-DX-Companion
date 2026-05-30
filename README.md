@@ -1,6 +1,6 @@
 # FM-DX Companion
 
-![Version](https://img.shields.io/badge/version-v0.5.0-blue)
+![Version](https://img.shields.io/badge/version-v0.5.1-blue)
 ![Status](https://img.shields.io/badge/status-beta-orange)
 ![Platform](https://img.shields.io/badge/platform-browser-green)
 
@@ -98,6 +98,23 @@ If you are not logged in, FMList will redirect you to the login page.
 ---
 
 ## Current Status
+
+### v0.5.1
+
+Quick fix release.
+
+## Fixed
+
+- Old PS values no longer remain visible after changing frequency
+- PI value `0000` is now ignored and shown as empty
+- PI and PS are reset when tuning to a new frequency
+- RDS data now expires automatically if no fresh PI/PS data is received
+
+## Notes
+
+This release improves reliability while tuning quickly across the FM band.
+
+Recommended update for all v0.5.0 users.
 
 ### v0.5.0 — Initial Public Beta
 
