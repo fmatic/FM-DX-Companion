@@ -47,7 +47,7 @@ Export settings:
 - CSV format
 - TAB separator
 
-![FMScan Export Settings](docs/IMG_5188.gif)
+![FMScan Export Settings]((https://raw.githubusercontent.com/fmatic/docs/IMG_5188.gif)
 
 ### 3. Rename Files
 
