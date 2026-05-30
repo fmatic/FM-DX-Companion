@@ -34,6 +34,10 @@ Default connection:
 ws://127.0.0.1:5454
 ```
 
+
+
+![FM-DX Companion](docs/helper.gif)
+
 ### 2. Download FMScan Userlists
 
 Download all three FMScan userlists:
