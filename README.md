@@ -71,6 +71,14 @@ Load the files into FM-DX Companion:
 
 The lists are stored locally in your browser and automatically restored when Companion is reopened.
 
+### 5. FMList Login
+
+To use FMList logging, you must be logged into FMList in the same browser.
+
+Companion opens the FMList logging page directly and copies remarks to the clipboard automatically, but FMList authentication is handled by FMList itself.
+
+If you are not logged in, FMList will redirect you to the login page.
+
 ---
 
 ## Typical Workflow
