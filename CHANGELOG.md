@@ -6,6 +6,89 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/), and 
 
 ---
 
+[0.6.0] - 2026-06-01
+
+Site Explorer Release
+
+FM-DX Companion now includes live transmitter site exploration and direct SDRconnect tuning support.
+
+⸻
+
+Added
+
+* Site Explorer
+    * Show all known frequencies from the same transmitter site
+    * Opens directly from station row context menu
+    * Displays:
+        * Frequency
+        * Station
+        * PI
+        * PS
+    * Removes duplicate entries automatically
+    * Respects active mode filters
+    * Smooth auto-scroll when opening
+    * Close button support
+* Direct SDRconnect tuning
+    * Click Site Explorer rows to tune SDRconnect
+    * Uses SDRconnect WebSocket API
+    * Supports live VFO tuning from browser UI
+    * Toast feedback for tuning actions
+* Site Explorer row states
+    * Current frequency highlight
+    * Last tuned frequency highlight
+    * Tune/play icon for clickable rows
+* DX workflow improvements
+    * Faster checking of related frequencies from the same site
+    * Better Es and tropo workflow
+    * Improved identification workflow after confirming one station
+
+⸻
+
+Improved
+
+* Better panel layout
+* Improved UI consistency
+* Cleaner Site Explorer rendering
+* Improved station deduplication logic
+* Better SDRconnect interaction stability
+
+⸻
+
+Notes
+
+Site Explorer is designed especially for:
+
+* Sporadic-E openings
+* Tropo openings
+* Multi-frequency transmitter sites
+* Fast regional band scanning
+
+Typical workflow:
+
+1. Identify one station
+2. Open Site Explorer
+3. Click other frequencies from the same site
+4. Continue scanning directly through SDRconnect
+
+⸻
+
+Known Limitations
+
+* Tuning currently uses only SDRconnect WebSocket support
+* No keyboard tuning shortcuts yet
+* No automatic “next frequency” stepping yet
+* No full receiver control panel yet
+
+⸻
+
+Next Planned Features
+
+* Mini tuning panel
+* Previous / next site frequency buttons
+* Keyboard shortcuts
+* More advanced DX session workflow tools
+* Session history improvements
+
 ## [0.5.2] - 2026-06-01
 
  Added
