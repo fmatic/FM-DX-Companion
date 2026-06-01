@@ -6,7 +6,7 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/), and 
 
 ---
 
-## [0.5.1] - 2026-05-31
+## [0.5.0.1] - 2026-05-31
 
 Quick fix release.
 
