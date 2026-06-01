@@ -4,6 +4,8 @@
 ![Status](https://img.shields.io/badge/status-beta-orange)
 ![Platform](https://img.shields.io/badge/platform-browser-green)
 
+[![Support my work](https://img.shields.io/badge/Support-My%20Work-333333?style=flat-square&logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/jannedx)
+
 A lightweight browser-based companion for SDRconnect and FM-DX enthusiasts.
 
 FM-DX Companion combines FMScan userlists, SDRconnect WebSocket data, FMList logging and FMDX Maps into a streamlined DX workflow.
@@ -227,21 +229,6 @@ Instead, it acts as a bridge between them, providing a faster and more efficient
 - Blog: https://fmatic.online
 - GitHub: https://github.com/fmatic
 
-<div style="transform: scale(0.82); transform-origin: left center; width: fit-content;">
-  <script
-    type="text/javascript"
-    src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
-    data-name="bmc-button"
-    data-slug="jannedx"
-    data-color="#333333"
-    data-emoji="🍺"
-    data-font="Comic"
-    data-text="Support my work!"
-    data-outline-color="#ffffff"
-    data-font-color="#ffffff"
-    data-coffee-color="#FFDD00">
-  </script>
-</div>
 
 ---
 
