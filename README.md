@@ -92,6 +92,24 @@ If you are not logged in, FMList will redirect you to the login page.
 Site Explorer shows all known frequencies from the same transmitter site.
 Useful during Es and tropo openings for quickly checking related stations and tuning SDRconnect directly from the list.
 
+### 7. Tune Panel
+
+FM-DX Companion now includes a lightweight Tune Panel for fast manual tuning directly from the browser UI.
+Features:
+
+- ±50 kHz tuning buttons
+- Direct frequency input
+- Live PI / PS display
+- Live RDS RadioText display
+- SDRconnect WebSocket tuning integration
+  
+You can either:
+
+- click ◁ / ▷ to step through the band
+- or click the frequency field and type a frequency directly (example: `99.500`)
+
+The Tune Panel is designed for rapid Es/Tropo band scanning while keeping the main match list visible.
+
 </p>
 
 ---
