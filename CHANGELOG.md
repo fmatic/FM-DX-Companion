@@ -6,6 +6,19 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/), and 
 
 ---
 
+## [0.5.2] - 2026-06-01
+
+ Added
+
+- Station Search
+- DX Helper panel
+
+ Improved
+
+- Better live workflow for identifying likely stations
+- More useful companion view during active DX sessions
+- Search works also without SDRconnect signal
+
 ## [0.5.1] - 2026-06-01
 
 This release focuses on stability, workflow polish and UI refinement.
