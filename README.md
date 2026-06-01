@@ -99,7 +99,7 @@ If you are not logged in, FMList will redirect you to the login page.
 
 ## Current Status
 
-### v0.5.1
+### v0.5.0.1
 
 Quick fix release.
 
