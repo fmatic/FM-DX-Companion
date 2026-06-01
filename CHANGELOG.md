@@ -6,6 +6,40 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/), and 
 
 ---
 
+## v0.6.1 - Tune Panel Release
+
+### Added
+- New collapsible Tune Panel
+- Live frequency display
+- Live PI display
+- Live PS display
+- Live RDS RadioText display
+- Direct frequency input support
+- ±50 kHz tuning buttons
+- Silent tuning mode for rapid tuning
+- Automatic PI / PS / RT clearing on manual tuning
+- SDRconnect RadioText (`rds_radiotext`) support
+  
+### Improved
+- Faster manual band navigation workflow
+- Better SDRconnect integration
+- Less intrusive tuning UX
+- Improved Tune Panel layout and responsiveness
+- Tune Panel now behaves like a lightweight live DX control center
+
+### Site Explorer
+- Improved active frequency highlighting
+- Better tune-state synchronization
+- Stable row highlighting after tuning
+- Improved tuning responsiveness
+
+### Fixed
+- SDRconnect tuning property handling
+- Active frequency highlight edge cases
+- PI/PS stale display after manual tuning
+- Tune Panel rendering issues
+- RadioText parsing and rendering issues
+
 [0.6.0] - 2026-06-01
 
 Site Explorer Release
