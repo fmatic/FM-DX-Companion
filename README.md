@@ -101,6 +101,11 @@ If you are not logged in, FMList will redirect you to the login page.
 
 ## Current Status
 
+### v0.5.2
+
+- Station Search
+- DX Helper panel
+
 ### v0.5.1
 
 * Added toast notifications for imports, logging, clipboard actions and errors
