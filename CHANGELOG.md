@@ -6,6 +6,43 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/), and 
 
 ---
 
+# Changelog
+
+## v0.6.2 - Tune Panel Polish
+
+### Added
+
+- Live signal power display
+- Live signal SNR display
+- VHF-oriented S-meter
+- Live signal strength bar
+- Tune step selector
+  - 10 kHz
+  - 50 kHz
+  - 100 kHz
+- Keyboard tuning support
+  - Left Arrow = Tune Down
+  - Right Arrow = Tune Up
+- Direct frequency entry from Tune Panel
+
+### Improved
+
+- Tune Panel layout and visual hierarchy
+- Smaller and less intrusive tuning step control
+- Better PI / PS / RadioText readability
+- Cleaner signal monitor styling
+- Faster independent signal updates
+- Improved SDRconnect signal property handling
+- Improved support for decimal comma signal values
+
+### Technical
+
+- Added live polling for:
+  - `signal_power`
+  - `signal_snr`
+- Added dedicated signal rendering path for reduced UI redraw overhead
+- Added VHF dBm → S-meter conversion logic
+
 ## v0.6.1 - Tune Panel Release
 
 ### Added
