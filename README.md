@@ -1,6 +1,6 @@
 # FM-DX Companion
 
-![Version](https://img.shields.io/badge/version-v0.6.1-blue)
+![Version](https://img.shields.io/badge/version-v0.6.2-blue)
 ![Status](https://img.shields.io/badge/status-beta-orange)
 ![Platform](https://img.shields.io/badge/platform-browser-green)
 
@@ -94,23 +94,29 @@ Useful during Es and tropo openings for quickly checking related stations and tu
 
 ### 7. Tune Panel
 
-FM-DX Companion now includes a lightweight Tune Panel for fast manual tuning directly from the browser UI.
-Features:
+FM-DX Companion now includes a polished live Tune Panel for faster manual DX work with SDRconnect.
 
-- ±50 kHz tuning buttons
+### Features
+
+- Large live frequency display
 - Direct frequency input
+- Quick tune controls
+- Adjustable tuning step
+  - 10 kHz
+  - 50 kHz
+  - 100 kHz
+- Keyboard tuning support
+  - Left Arrow → Tune Down
+  - Right Arrow → Tune Up
 - Live PI / PS display
-- Live RDS RadioText display
-- SDRconnect WebSocket tuning integration
-  
-You can either:
+- Live RadioText display
+- Live signal monitoring
+  - VHF S-Meter
+  - Signal Power (dBm)
+  - Signal SNR
+  - Signal Strength Bar
 
-- click ◁ / ▷ to step through the band
-- or click the frequency field and type a frequency directly (example: `99.500`)
-
-The Tune Panel is designed for rapid Es/Tropo band scanning while keeping the main match list visible.
-
-</p>
+The Tune Panel is designed for lightweight real-time band exploration while keeping the workflow fast and visually clean.
 
 ---
 
