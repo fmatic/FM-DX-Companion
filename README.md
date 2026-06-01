@@ -110,6 +110,21 @@ Useful during Es and tropo openings for quickly checking related stations and tu
 
 ## Current Status
 
+## v0.6.1
+
+- New collapsible Tune Panel
+- Live frequency, PI, PS and RadioText display
+- Direct frequency input support
+- ±50 kHz tuning buttons
+- Silent tuning mode for rapid band browsing
+- Improved SDRconnect integration
+- Improved Site Explorer highlighting and tuning behavior
+- Multiple tuning and RDS handling fixes
+
+### v0.6.0
+
+- Site Explorer
+
 ### v0.5.2
 
 - Station Search
