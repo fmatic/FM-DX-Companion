@@ -3,7 +3,6 @@
 ![Version](https://img.shields.io/badge/version-v0.6.2-blue)
 ![Status](https://img.shields.io/badge/status-beta-orange)
 ![Platform](https://img.shields.io/badge/platform-browser-green)
-
 [![Support my work](https://img.shields.io/badge/Support-My%20Work-333333?style=flat-square&logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/jannedx)
 
 A lightweight browser-based companion for SDRconnect and FM-DX enthusiasts.
