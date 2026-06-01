@@ -1,6 +1,6 @@
 # FM-DX Companion
 
-![Version](https://img.shields.io/badge/version-v0.5.2-blue)
+![Version](https://img.shields.io/badge/version-v0.6.0-blue)
 ![Status](https://img.shields.io/badge/status-beta-orange)
 ![Platform](https://img.shields.io/badge/platform-browser-green)
 
@@ -27,6 +27,7 @@ FM-DX Companion combines FMScan userlists, SDRconnect WebSocket data, FMList log
 - Fast station lookup and ranking
 - Station Search
 - DX Helper panel
+- Site Explorer
 
 ---
 
@@ -84,6 +85,13 @@ To use FMList logging, you must be logged into FMList in the same browser.
 Companion opens the FMList logging page directly and copies remarks to the clipboard automatically, but FMList authentication is handled by FMList itself.
 
 If you are not logged in, FMList will redirect you to the login page.
+
+### 6. Site Explorer
+
+Site Explorer shows all known frequencies from the same transmitter site.
+Useful during Es and tropo openings for quickly checking related stations and tuning SDRconnect directly from the list.
+
+</p>
 
 ---
 
