@@ -99,6 +99,16 @@ If you are not logged in, FMList will redirect you to the login page.
 
 ## Current Status
 
+### v0.5.1
+
+* Added toast notifications for imports, logging, clipboard actions and errors
+* Improved FMList logging workflow and user feedback
+* Improved SDRconnect RDS handling stability
+* Fixed stale PI/PS clearing issues
+* Added version badge and improved footer layout
+* Improved UI polish and overall usability
+* Better compatibility with Companion-inspired Stylus themes
+
 ### v0.5.0.1
 
 Quick fix release.
