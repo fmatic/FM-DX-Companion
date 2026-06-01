@@ -1,6 +1,6 @@
 # FM-DX Companion
 
-![Version](https://img.shields.io/badge/version-v0.5.1-blue)
+![Version](https://img.shields.io/badge/version-v0.5.2-blue)
 ![Status](https://img.shields.io/badge/status-beta-orange)
 ![Platform](https://img.shields.io/badge/platform-browser-green)
 
@@ -25,6 +25,8 @@ FM-DX Companion combines FMScan userlists, SDRconnect WebSocket data, FMList log
 - Browser-based, no installation required
 - IndexedDB local storage
 - Fast station lookup and ranking
+- Station Search
+- DX Helper panel
 
 ---
 
