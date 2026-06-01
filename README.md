@@ -134,6 +134,19 @@ The Tune Panel is designed for lightweight real-time band exploration while keep
 
 ## Current Status
 
+## v0.6.2
+
+- New polished Tune Panel
+- Live Signal Power and SNR monitoring
+- VHF-style S-meter and signal bar
+- Live RadioText display
+- Adjustable tuning steps
+  - 10 / 50 / 100 kHz
+- Keyboard tuning support
+- Direct frequency input
+- Improved SDRconnect integration
+- Cleaner and more professional UI polish
+
 ## v0.6.1
 
 - New collapsible Tune Panel
