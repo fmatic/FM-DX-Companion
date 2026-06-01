@@ -227,6 +227,22 @@ Instead, it acts as a bridge between them, providing a faster and more efficient
 - Blog: https://fmatic.online
 - GitHub: https://github.com/fmatic
 
+<div style="transform: scale(0.82); transform-origin: left center; width: fit-content;">
+  <script
+    type="text/javascript"
+    src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+    data-name="bmc-button"
+    data-slug="jannedx"
+    data-color="#333333"
+    data-emoji="🍺"
+    data-font="Comic"
+    data-text="Support my work!"
+    data-outline-color="#ffffff"
+    data-font-color="#ffffff"
+    data-coffee-color="#FFDD00">
+  </script>
+</div>
+
 ---
 
 *Minimal DX workflow for SDRconnect users.*
