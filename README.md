@@ -12,7 +12,7 @@ FM-DX Companion combines FMScan userlists, SDRconnect WebSocket data, FMList log
 
 ## Screenshot
 
-![FM-DX Companion](docs/screenshot.jpg)
+![FM-DX Companion](docs/screenshot.png)
 
 ## Features
 
