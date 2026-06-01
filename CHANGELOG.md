@@ -6,6 +6,43 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/), and 
 
 ---
 
+## [0.5.1] - 2026-06-01
+
+This release focuses on stability, workflow polish and UI refinement.
+
+New Features
+
+* Added toast notifications for:
+    * Settings saved
+    * Database imports
+    * FMList logging
+    * Clipboard copy actions
+    * FMDX Map opening
+    * Error handling
+* Added improved FMList workflow integration
+* Added automatic remarks clipboard copy
+* Added footer with author, version and project links
+* Added subtle application version badge
+* Added browser-side cache handling improvements
+
+Improvements
+
+* Improved English UI translations
+* Improved FMScan userlist handling
+* Improved context menu workflow
+* Improved debug information readability
+* Improved layout consistency and spacing
+* Improved compatibility with Stylus themes
+* Improved overall UI polish
+
+Fixed
+
+* Fixed stale PI/PS clearing behavior
+* Fixed SDRconnect RDS persistence issues
+* Fixed duplicate clipboard helper issue
+* Fixed broken HTML structure affecting toast rendering
+* Fixed multiple small UI inconsistencies
+
 ## [0.5.0.1] - 2026-05-31
 
 Quick fix release.
