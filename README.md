@@ -33,6 +33,15 @@ FM-DX Companion combines FMScan userlists, SDRconnect WebSocket data, FMList log
 
 ---
 
+## Quick Start
+
+1. Download the latest release ZIP:
+https://github.com/fmatic/FM-DX-Companion/releases
+2. Extract the ZIP file
+3. Open `index.html`
+4. Enable WebSocket Server in SDRconnect
+5. Click Connect
+
 ## Getting Started
 
 Download latest release: https://github.com/fmatic/FM-DX-Companion/releases
@@ -44,6 +53,10 @@ Default connection:
 ```text
 ws://127.0.0.1:5454
 ```
+
+NOTE:
+The WebSocket address is NOT opened in a browser.
+It is only used internally by FM-DX Companion.
 
 ### 2. Download FMScan Userlists
 
