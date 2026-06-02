@@ -44,8 +44,6 @@ https://github.com/fmatic/FM-DX-Companion/releases
 
 ## Getting Started
 
-Download latest release: https://github.com/fmatic/FM-DX-Companion/releases
-
 ### 1. Enable SDRconnect WebSocket Server
 
 Default connection:
