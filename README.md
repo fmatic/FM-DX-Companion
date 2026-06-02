@@ -69,6 +69,16 @@ Export settings:
 - CSV format
 - TAB separator
 
+I recommend loading all three databases for the best overall DX coverage. However, you can also load only the databases you actually need.
+
+Examples:
+
+- Tropo only → Load Tropo
+- Es season → Load Tropo + Es
+- Meteor Scatter → Load Meteor
+
+You can freely combine databases depending on your DX target.
+
 ![FMScan Export Settings](https://raw.githubusercontent.com/fmatic/FM-DX-Companion/main/docs/IMG_5188.gif)
 
 ### 3. Rename Files
